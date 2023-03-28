@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "Open_Sans_Ligt";
+    src: url(./fonts/OpenSans-Light.ttf)
+}
+
+@font-face {
+    font-family: "Open_Sans_bold";
+    src: url(./fonts/OpenSans-Bold.ttf)
+}
+
+.popup_cadastro1 {
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box_cadstro1 {
+    width: 28%;
+    height: auto;
+    background: rgb(255, 222, 89);
+    border-radius: 20px;
+    font-family: "Open_Sans_Ligt";
+}
+
+.titulo {
+    font-family: "Open_Sans_bold";
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+
+.campos_centralizados {
+    text-align: center;
+}
+
+.input {
+    width: 80%;
+    height: 35px;
+    border-radius: 30px;
+    border-width: 1px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-color: black;
+    font-family: "Open_Sans_bold";
+    font-size: 17px;
+}
+
+
+
+
+
+.combobox_pergunta {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 82%;
+    height: 40px;
+    border-radius: 30px;
+    border-width: 1px;
+    font-family: "Open_Sans_bold";
+    font-size: 17px;
+    color: rgb(166, 166, 166);
+    border-color: black;
+
+}
+
+.botao_inferior_cadastrar {
+    background-color: black;
+    text-align: center;
+    margin-top: 13px;
+    height: 35px;
+    border-radius: 30px;
+    border-width: 1px;
+    font-family: "Open_Sans_bold";
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+    margin-right: 20px;
+    border-width: 0;
+    position: relative;
+    cursor: pointer;
+    display: inline-flex;
+}

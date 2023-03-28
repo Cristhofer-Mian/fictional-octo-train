@@ -1,0 +1,143 @@
+@font-face {
+    font-family: "Open_Sans_Ligt";
+    src: url(./fonts/OpenSans-Light.ttf)
+  }
+
+ @font-face {
+    font-family: "Open_Sans_bold";
+    src: url(./fonts/OpenSans-Bold.ttf)
+}
+
+
+
+.popup_login {
+    width: 100vw;
+    height:95vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.box {
+    width: 550px;
+    height: auto;
+    background: rgb(255, 222, 89);
+    border-radius: 20px;
+    font-family: "Open_Sans_Ligt";
+    padding: 0px;
+    }
+
+.campos_login {
+    text-align: center;
+    padding: 50px 80px 0px 80px;
+    margin: 0px;
+    border: 0px;
+}
+
+.titulo {
+    font-family: "Open_Sans_bold";
+    font-size: 25px ;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}
+
+.input{
+    text-align: center;
+    margin-bottom: 20px;   
+    width: 100%;
+    height: 35px;
+    border-radius: 30px;
+    border-width: 1px;
+    font-family: "Open_Sans_bold";
+    font-size: 15px;
+    color: rgb(166, 166, 166);
+    border-color: black;
+    padding: 0px;
+}
+
+.botoes_inferiores_login {
+    width: 100%;
+    border-width: 0;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 0px;
+}
+.inferior {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    padding: 0px;
+}
+
+.link_esqueci_senha{
+    color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+.esqueci_senha {
+    font-family: "Open_Sans_bold";
+    font-size: 12px ;
+    color: black;
+    padding: 0px;
+    margin: 10px 0px 20px 0px;
+}
+
+.link{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+.botão{
+    background-color: black;
+    padding: 8px;
+    border: 1px;
+    color: white;
+    text-align: center;
+    font-family: "Open_Sans_bold";
+    cursor:pointer;
+    border-radius: 30px;
+    font-size: 15px;
+    margin: 0px;
+    width: 150px;
+}
+
+
+.separador {
+    height: 5px;
+    color: black;
+    background-color: black;
+    border: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
+.botão_inferior{
+    background-color: black;
+    padding: 8px;
+    border: 1px;
+    width: 230px;
+    color: white;
+    text-align: center;
+    font-family: "Open_Sans_bold";
+    cursor:pointer;
+    border-radius: 30px;
+    font-size: 15px;
+    margin-left: 15px;
+    margin-right: 15px;    
+    margin-bottom: 20px;
+
+}
+

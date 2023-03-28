@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "Open_Sans_Ligt";
+    src: url(./fonts/OpenSans-Light.ttf)
+  }
+
+ @font-face {
+    font-family: "Open_Sans_bold";
+    src: url(./fonts/OpenSans-Bold.ttf)
+}
+.titulo_area_produtor {
+    margin: 5px 20px 0px 20px;
+    height: auto;
+    width: auto;
+    background: rgb(255, 222, 89);
+    border-radius: 15px;
+    text-align: center;
+    font-family: "Open_Sans_Ligt";
+    font-size: 20px;
+}
