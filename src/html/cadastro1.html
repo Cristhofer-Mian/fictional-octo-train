@@ -4,65 +4,40 @@
 <head>
     <meta charset="UTF-8">
     <title>Cadastre-se</title>
-    <link rel="stylesheet" href="../css/background.css">
-    <link rel="stylesheet" href="../css/cadastro1.css">
-    <link rel="stylesheet" href="../css/topo_area_produtor.css">
-
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
-
-    <body>
-        <div>
-            <h3 class="titulo_area_produtor">ÁREA DO PRODUTOR</h3>
+    <div class="tela_total">
+        <div class="area_prod">
+            <h3 class="titulo_prod">ÁREA DO PRODUTOR</h3>
         </div>
-        <div class="popup_cadastro1">
-            <div class="box_cadstro1">
-                <form action="" class="campos_login" style="border: 0px;">
-                    <div class="campos_centralizados">
-                        <h1 class="titulo" id="login">CADASTRE-SE</h1>
 
-
-
-
-                        <input type="text" id="usuario" name="usuario" placeholder="USUÁRIO PARA LOGIN" class="input"
-                            autocomplete="off">
-                        <br>
-                        <input type="password" id="senha" name="senha" placeholder="SENHA" class="input">
-                        <br>
-                        <input type="password" id="confirm_senha" name="confirm_senha" placeholder="CONFIRME SUA SENHA"
-                            class="input">
-                        <br>
-                        <select name="pergunta_seguranca" id="pergunta_seguranca" class="combobox_pergunta">
-                            <option value="0">SELECIONE A PERGUNTA DE SEGURANÇA</option>
-                            <option value="1">Nome de solteiro mãe</option>
-                            <option value="2">Nome do último animal de estimação</option>
-                        </select>
-                        <input type="text" id="resposta_pergunta" name="resposta_pergunta" placeholder="RESPOSTA "
-                            class="input">
-                        <br>
-                        <input type="TEXT" id="confirma_resposta" name="confirma_resposta"
-                            placeholder="CONFIRME SUA RESPOSTA" class="input">
-                        <br>
-                        <div class="botoes_inferiores_login" style="display: inline-flex; width: 100%">
-                            <div style="            justify-content: space-between;
-                            width: 50%">
-                                <a href="./login.html" style="display: contents;">
-                                    <input type="button" class="botao_inferior_cadastrar" value="VOLTAR">
-                                </a>
-                            </div>
-                            <div style="width: 50%">
-                                <a href="./cadastro1.html" style="display: contents;">
-                                    <input type="button" class="botao_inferior_cadastrar" value="SEGUINTE">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-
+        <div class="box">
+            <div class="cadastre_se">
+                <form action="" class="form_cadastrar">
+                    <h3 class="titulo">DADOS PARA LOGIN</h3>
+                    <input type="text" class="input" name="cadastrar_usuario" id="cadastrar_usuario"
+                        placeholder="USUÁRIO" required>
+                    <input type="password" class="input" name="cadastrar_senha" id="cadastrar_senha"
+                        placeholder="SENHA" required>
+                    <input type="password" class="input" name="confirmar_senha" id="confirmar_senha"
+                        placeholder="CONFIRME SUA SENHA" required>
+                    <input type="email" class="input" name="email" id="email" placeholder="E-MAIL" required>
+                    <br>
+                    <br>
                 </form>
+                <div class="botão_inferior_cadastrar">
+                    <a href="../html/login.html" class="tamanhos_iguais_cadastrar">
+                        <button class="botão">VOLTAR</button>
+                    </a>
+                    <a href="../html/cadastro2.html" class="tamanhos_iguais_cadastrar">
+                        <input type="submit" class="proximo" id="proximo" value="PRÓXIMO">
+                    </a>
+                </div>
             </div>
         </div>
-    </body>
+    </div>
+</body>
 
 </html>

@@ -1,143 +1,364 @@
-@font-face {
-    font-family: "Open_Sans_Ligt";
-    src: url(./fonts/OpenSans-Light.ttf)
-  }
-
- @font-face {
-    font-family: "Open_Sans_bold";
-    src: url(./fonts/OpenSans-Bold.ttf)
-}
-
-
-
-.popup_login {
-    width: 100vw;
-    height:95vh;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 0px;
-    margin: 0px;
-}
-
-.box {
-    width: 550px;
-    height: auto;
-    background: rgb(255, 222, 89);
-    border-radius: 20px;
-    font-family: "Open_Sans_Ligt";
-    padding: 0px;
+    @font-face {
+        font-family: "Open_Sans_Ligt";
+        src: url(./fonts/OpenSans-Light.ttf)
     }
 
-.campos_login {
-    text-align: center;
-    padding: 50px 80px 0px 80px;
-    margin: 0px;
-    border: 0px;
-}
+    @font-face {
+        font-family: "Open_Sans_bold";
+        src: url(./fonts/OpenSans-Bold.ttf)
+    }
 
-.titulo {
-    font-family: "Open_Sans_bold";
-    font-size: 25px ;
-    margin-bottom: 30px;
-    margin-top: 0px;
-}
+    body {
+        background-image: url("../imagens/360_F_163304780_tqLFXao7SrXHjbIeAX9uF8OClsEKN136-removebg-preview.png");
+        background-repeat: repeat;
+        background-attachment: fixed;
+        background-color: black;
+        margin: 0px;
+        padding: 0px;
+    }
 
-.input{
-    text-align: center;
-    margin-bottom: 20px;   
-    width: 100%;
-    height: 35px;
-    border-radius: 30px;
-    border-width: 1px;
-    font-family: "Open_Sans_bold";
-    font-size: 15px;
-    color: rgb(166, 166, 166);
-    border-color: black;
-    padding: 0px;
-}
+    .tela_total {
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        padding: 0px;
+        margin: 0px;
 
-.botoes_inferiores_login {
-    width: 100%;
-    border-width: 0;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    display: inline-flex;
-    justify-content: space-between;
-    padding: 0px;
-}
-.inferior {
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    padding: 0px;
-}
+    }
 
-.link_esqueci_senha{
-    color: rgb(0, 0, 0);
-    margin: 0px;
-    padding: 0px;
-    text-decoration: none;
-}
+    .area_prod {
+        width: 99%;
+        margin: 10px 0px 0px 0px;
+        padding: 0%;
+        background-color:rgb(255, 222, 89) ;
+        text-align: center;
+        border-radius: 30px;    
 
-.esqueci_senha {
-    font-family: "Open_Sans_bold";
-    font-size: 12px ;
-    color: black;
-    padding: 0px;
-    margin: 10px 0px 20px 0px;
-}
+    }
 
-.link{
-    color: white;
-    margin: 0px;
-    padding: 0px;
-    text-decoration: none;
-}
-
-.botão{
-    background-color: black;
-    padding: 8px;
-    border: 1px;
-    color: white;
-    text-align: center;
-    font-family: "Open_Sans_bold";
-    cursor:pointer;
-    border-radius: 30px;
-    font-size: 15px;
-    margin: 0px;
-    width: 150px;
-}
+    .titulo_prod {
+        margin: 5px;
+        font-family:'Open Sans', sans-serif;
+        font-size: 17px;
+    }
 
 
-.separador {
-    height: 5px;
-    color: black;
-    background-color: black;
-    border: 0px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 15px;
-    margin-right: 15px;
-}
+    .box {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        align-items:center;
+        text-align: center;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .login {
+        width: 35%;
+        max-width: 550px;
+        height:auto;
+        background-color: rgb(255, 222, 89);
+        border: 0px;
+        border-radius: 15px;
+        padding: 0px 15px 0px 15px;
+    }
+
+    .titulo {
+        padding: 0px;
+        font-family:'Open_Sans_bold', sans-serif;
+        font-size: 25px;
+        margin: 30px 0px 30px 0px;
+    }
+
+    .input {
+        appearance: none;
+        text-align: center;
+        margin: 0px;
+        margin-bottom: 20px;   
+        width: 100%;
+        height: 45px;
+        border-radius: 30px;
+        border-width: 1px;
+        font-family:'Open_Sans_bold', sans-serif;
+        font-size: 15px;
+        color: rgb(166, 166, 166);
+        padding: 0px;
+        border-style: solid;
+        border-top-color:black ;
+        border-left-color:black ;
+        border-right-color: black;
+        border-bottom-color: black ;
+    }
+
+      
+      
+    .combobox {
+        text-align: center;
+        margin-bottom: 20px;   
+        width: 100%;
+        height: 47px;
+        border-radius: 30px;
+        border-width: 1px;
+        font-family:'Open_Sans_bold', sans-serif;
+        font-size: 15px;
+        color: rgb(166, 166, 166);
+        padding: 0px;
+        border-style: solid;
+        border-top-color:black ;
+        border-left-color:black ;
+        border-right-color: black;
+        border-bottom-color: black ;
+        appearance: none;
+        background-color: white;
+        background-image: url('../imagens/arrow-down-3101.png');
+        background-size: 10px;
+        background-position: right 17px top 50%;
+        background-repeat: no-repeat;
+    }
 
 
-.botão_inferior{
-    background-color: black;
-    padding: 8px;
-    border: 1px;
-    width: 230px;
-    color: white;
-    text-align: center;
-    font-family: "Open_Sans_bold";
-    cursor:pointer;
-    border-radius: 30px;
-    font-size: 15px;
-    margin-left: 15px;
-    margin-right: 15px;    
-    margin-bottom: 20px;
+    .botão_entrar {
+        width: 35%;
+        height: 35px;
+        background-color: black;
+        color: rgb(255, 255, 255);
+        border-radius: 30px;
+        font-family:'Open_Sans_bold', sans-serif;
+        font-size: 15px;
+        border: 0px;
+        cursor: pointer;
+    }
 
-}
+    .esqueci_senha {
+        margin: 7px 0px 0px 0px;
+    }
+
+    .texto_esqueci_senha {
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+        font-family:'Open_Sans_bold', sans-serif;
+    }
+
+    .form_login {
+        padding: 0px 30px 0px 30px;
+    }
+
+    .separador {
+        height: 5px;
+        color: black;
+        background-color: black;
+        border: 0px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    
+    }
+
+    .tamanhos_iguais {
+        width: 40%;
+    }
+
+    .botão {
+        width: 100%;
+        height: 35px;
+        font-family:'Open_Sans_bold', sans-serif;
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+        background-color: black;
+        border-radius: 35px;
+        padding: 5px 10px 5px 10px;
+        border: 0px;
+        cursor: pointer;
+    }
+
+    .botão_inferior {
+        text-decoration: none;
+        display: inline-flex;
+        justify-content: space-between;
+        padding: 0px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+
+    .cadastre_se {
+        width: 35%;
+        max-width: 550px;
+        height:auto;
+        background-color: rgb(255, 222, 89);
+        border: 0px;
+        border-radius: 15px;
+        padding: 0px 15px 0px 15px;
+    }
+
+    .form_cadastrar {
+        padding: 0px 30px 0px 30px;
+    }
+
+    .botão_inferior_cadastrar {
+        text-decoration: none;
+        display: inline-flex;
+        justify-content: space-between;
+        padding: 0px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .tamanhos_iguais_cadastrar {
+        width: 40%;
+        padding: 0px 30px 0px 30px;
+    }
+
+    .proximo {
+        width: 100%;
+        height: 35px;
+        font-family:'Open_Sans_bold', sans-serif;
+        font-size: 15px;
+        color: rgb(255, 255, 255);
+        background-color: black;
+        border-radius: 35px;
+        padding: 5px 10px 5px 10px;
+        border: 0px;
+        cursor: pointer;
+    }
+
+
+
+
+
+
+    /*
+
+    .popup_login {
+        width: 100vw;
+        height:90vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .box {
+        width: 550px;
+        height: auto;
+        background: rgb(255, 222, 89);
+        border-radius: 20px;
+        font-family: "Open_Sans_Ligt";
+        padding: 0px;
+        }
+
+    .campos_login {
+        text-align: center;
+        padding: 50px 80px 0px 80px;
+        margin: 0px;
+        border: 0px;
+    }
+
+    .titulo {
+        font-family: "Open_Sans_bold";
+        font-size: 25px ;
+        margin-bottom: 30px;
+        margin-top: 0px;
+    }
+
+    .input{
+        text-align: center;
+        margin-bottom: 20px;   
+        width: 100%;
+        height: 35px;
+        border-radius: 30px;
+        border-width: 1px;
+        font-family: "Open_Sans_bold";
+        font-size: 15px;
+        color: rgb(166, 166, 166);
+        border-color: black;
+        padding: 0px;
+    }
+
+    .botoes_inferiores_login {
+        width: 100%;
+        border-width: 0;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: inline-flex;
+        justify-content: space-between;
+        padding: 0px;
+    }
+    .inferior {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        padding: 0px;
+    }
+
+    .link_esqueci_senha{
+        color: rgb(0, 0, 0);
+        margin: 0px;
+        padding: 0px;
+        text-decoration: none;
+    }
+
+    .esqueci_senha {
+        font-family: "Open_Sans_bold";
+        font-size: 12px ;
+        color: black;
+        padding: 0px;
+        margin: 10px 0px 20px 0px;
+    }
+
+    .link{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        text-decoration: none;
+    }
+
+    .botão{
+        background-color: black;
+        padding: 8px;
+        border: 1px;
+        color: white;
+        text-align: center;
+        font-family: "Open_Sans_bold";
+        cursor:pointer;
+        border-radius: 30px;
+        font-size: 15px;
+        margin: 0px;
+        width: 150px;
+    }
+
+
+    .separador {
+        height: 5px;
+        color: black;
+        background-color: black;
+        border: 0px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+
+    .botão_inferior{
+        background-color: black;
+        padding: 8px;
+        border: 1px;
+        width: 230px;
+        color: white;
+        text-align: center;
+        font-family: "Open_Sans_bold";
+        cursor:pointer;
+        border-radius: 30px;
+        font-size: 15px;
+        margin-left: 15px;
+        margin-right: 15px;    
+        margin-bottom: 20px;
+
+    }*/
 
